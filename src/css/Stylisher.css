@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    color:aliceblue;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#subtitle {
+    font-size: 15px;
+    color: rgb(176, 174, 174);
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: black;
+}
+
+.ABNT:hover {
+    font-size: 25px;
+    color: rgb(69, 71, 76);
+    text-decoration: none;
+}
+.ABNT:link {
+    color: aliceblue;
+    text-decoration: none;
+}
+.ABNT:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+}
