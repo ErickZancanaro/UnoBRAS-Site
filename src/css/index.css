@@ -1,4 +1,4 @@
-.landiv {
+.landiv { /* container das divs */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.land1 {
+.land1 { /* formatação padrão dos tópicos */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@
     transition: 0.3s ease;
 }
 
-.background1 {
+.background1 { /* imagem 1 */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +45,7 @@
     background: url('https://midia.frm.org.br/drupal/public/styles/iwc_banner_internas_2000x384_webp/public/media/hero/2025-04/pexels-mikhail-nilov-9242833.jpg.webp?VersionId=DfHAjQdf8zKCyEfGhsFyYL_qgB08JHsD&itok=mpUQSe3t') no-repeat;
 }
 
-.background2 {
+.background2 { /* imagem 2 */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@
     background: url('https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/11/arduino-uno-q-1.jpg?q=49&fit=crop&w=1600&h=900&dpr=2') no-repeat;
 }
 
-.txtdeffw {
+.txtdeffw { /* txt só que branco */
     padding-left: 3rem;
     font-size: 2rem;
     text-decoration: none;

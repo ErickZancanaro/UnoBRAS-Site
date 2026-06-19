@@ -1,11 +1,11 @@
-.list {
+.list { /* container */
     border: 0.2rem solid black;
     border-radius: 15px;
     padding: 1rem;
     margin: 1rem;
     background-color: black;
 }
-.assts {
+.assts { /* formatação dos conteudos da lista */
     display: flex;
     flex-direction: row;
     justify-content: left;

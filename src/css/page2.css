@@ -1,8 +1,8 @@
-.list {
+.list { /* container */
     width: 100%;
     padding: 2rem;
 }
-.assts {
+.assts { /* formatação dos conteudos da lista */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,12 +27,12 @@
     flex-direction: column;
     text-align: left;
 }
-.txtitle {
+.txtitle { /* titulo do texto */
     display: flex;
     margin-top: 15rem;
 }
 
-.txtitle2 {
+.txtitle2 { /* titulo do texto 2 */
     display: flex;
     margin-top: 35rem;
 }

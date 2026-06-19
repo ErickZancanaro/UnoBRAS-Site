@@ -1,4 +1,4 @@
-.ex {
+.ex { /* overflow scrolável onde fica o exemplo */
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -9,7 +9,7 @@
     background: linear-gradient(to bottom, #ffffff, #d1d1d1);
 }
 
-.lands {
+.lands { /* div principal que segura tudo */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@
     transition: 0.4s ease-in;
 }
 
-.land {
+.land { /* conteudos */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
